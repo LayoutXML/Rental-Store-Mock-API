@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    initialization-mode: always
+    url: jdbc:h2:file:./.dev/local;INIT=CREATE SCHEMA IF NOT EXISTS MAIN_DB
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    hikari:
+      schema: MAIN_DB
+  flyway:
+    enabled: true
+    schemas: MAIN_DB
+    baseline-on-migrate: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: true
+  h2:
+    console:
+      enabled: true
+logging:
+  level:
+    root: info

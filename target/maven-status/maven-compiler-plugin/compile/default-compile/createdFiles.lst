@@ -1,0 +1,16 @@
+com\teliacompany\task\backend\api\v1\model\json\response\ProductDetailView$ProductDetailViewBuilder.class
+com\teliacompany\task\backend\api\v1\repositories\PriceRepository.class
+com\teliacompany\task\backend\api\v1\repositories\ProductRepository.class
+com\teliacompany\task\backend\api\v1\model\database\Price.class
+com\teliacompany\task\backend\api\v1\model\json\response\ProductDetailView.class
+com\teliacompany\task\backend\api\v1\model\json\request\PriceRequest.class
+com\teliacompany\task\backend\api\v1\services\impl\ProductServiceImpl.class
+com\teliacompany\task\backend\api\v1\services\ProductService.class
+com\teliacompany\task\backend\api\v1\model\exceptions\NotFoundException.class
+com\teliacompany\task\backend\RentInformationApplication.class
+com\teliacompany\task\backend\api\v1\model\database\Product.class
+com\teliacompany\task\backend\api\v1\model\exceptions\InvalidRequestException.class
+com\teliacompany\task\backend\api\v1\model\json\response\ProductView.class
+com\teliacompany\task\backend\api\v1\controllers\Controller.class
+com\teliacompany\task\backend\api\v1\model\json\request\PriceRequest$PriceRequestBuilder.class
+com\teliacompany\task\backend\api\v1\auth\SecurityConfig.class
